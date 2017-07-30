@@ -32,17 +32,21 @@
             <property name="enableSubPackages" value="ture"/>
         </sqlMapGenerator>
 
-        <!-- 生成的Dao接口 的包路径 -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="${dao.package}" targetProject="${target.project}">
+        <!-- 生成的mapper接口 的包路径 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="${mapper.package}" targetProject="${target.project}">
             <property name="enableSubPackages" value="ture"/>
         </javaClientGenerator>
 
-        <!--对应数据库表名 -->
-        <table tableName="emp" enableCountByExample="false"
-               enableUpdateByExample="false" enableDeleteByExample="false"
-               enableSelectByExample="false" selectByExampleQueryId="false">
+        <!--对应数据库表名 多余的配置项 用来去掉example类-->
 
-        </table>
+        <table tableName="act_id_user" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" ></table>
+        <table tableName="act_id_membership" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" ></table>
+        <table tableName="act_id_group" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" ></table>
+        <table tableName="t_leave" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" ></table>
     </context>
     <!--<commentGenerator>-->
         <!--<property name="suppressDate" value="false"/>-->
