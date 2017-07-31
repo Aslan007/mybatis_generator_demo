@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9094e7a-b7b9-4db9-802c-db6cd297e054" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/dto/ActIdGroup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/dto/ActIdMembershipKey.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/dto/ActIdUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/dto/TLeave.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/mapper/ActIdGroupMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/mapper/ActIdGroupMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/mapper/ActIdMembershipMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/mapper/ActIdMembershipMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/mapper/ActIdUserMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/mapper/ActIdUserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/mapper/TLeaveMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/lx/activiti/mapper/TLeaveMapper.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
     </list>
     <ignored path="generatorDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -834,7 +821,7 @@
       <workItem from="1471089439549" duration="7492000" />
       <workItem from="1501400584172" duration="4024000" />
       <workItem from="1501405124408" duration="744000" />
-      <workItem from="1501466737395" duration="671000" />
+      <workItem from="1501466737395" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="亲测可用版本 直接在maven命令里面执行命令即可">
       <created>1501402842528</created>
@@ -892,11 +879,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501404438795</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="亲测可用版本 直接在maven命令里面执行命令即可">
+      <created>1501467421261</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1501467421261</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14276000" />
+    <option name="totallyTimeSpent" value="14291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
