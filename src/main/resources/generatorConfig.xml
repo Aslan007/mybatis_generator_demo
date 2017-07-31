@@ -12,8 +12,12 @@
 
     <context id="MySQLTables" targetRuntime="MyBatis3">
         <!--关闭注释 -->
-        <commentGenerator>
+   <!--     <commentGenerator>
             <property name="suppressDate" value="true"/>
+        </commentGenerator>-->
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true" />
         </commentGenerator>
 
         <!--数据库连接信息 -->
@@ -40,13 +44,17 @@
         <!--对应数据库表名 多余的配置项 用来去掉example类-->
 
         <table tableName="act_id_user" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
-               enableSelectByExample="false" selectByExampleQueryId="false" ></table>
+               enableSelectByExample="false" selectByExampleQueryId="false" >
+           <!-- &lt;!&ndash;用默认的表中字段作为属性名&ndash;&gt;
+            <property name="useActualColumnNames" value="true"/>-->
+        </table>
         <table tableName="act_id_membership" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false" ></table>
         <table tableName="act_id_group" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false" ></table>
         <table tableName="t_leave" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false" ></table>
+
     </context>
     <!--<commentGenerator>-->
         <!--<property name="suppressDate" value="false"/>-->
