@@ -42,19 +42,27 @@
         </javaClientGenerator>
 
         <!--对应数据库表名 多余的配置项 用来去掉example类-->
-
-        <table tableName="act_id_user" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+        <!--还款主表-->
+        <table tableName="fo_paybackbill" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false" >
+
            <!-- &lt;!&ndash;用默认的表中字段作为属性名&ndash;&gt;
             <property name="useActualColumnNames" value="true"/>-->
         </table>
-        <table tableName="act_id_membership" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+        <!--报销主表-->
+        <table tableName="fo_accountbill" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false" ></table>
-        <table tableName="act_id_group" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+        <!--通用报销单-->
+        <table tableName="FO_EXPENSEBILL_ITEM " enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false" ></table>
-        <table tableName="t_leave" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+        <table tableName="AP_DEBTBILL_INV_ITEM" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false" ></table>
-
+        <table tableName="FO_PAYACCOUNT " enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" ></table>
+        <table tableName="fo_accountbill" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" ></table>
+        <table tableName="FO_DEBTBILL" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" ></table>
     </context>
     <!--<commentGenerator>-->
         <!--<property name="suppressDate" value="false"/>-->
